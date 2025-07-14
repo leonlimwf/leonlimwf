@@ -12,8 +12,6 @@
 
 - 👯 I’m looking to collaborate on **Open Source Projects**
 
-- 👨‍💻 All of my projects are available at **[My Portfolio](https://limwf.co)**
-
 - 📫 How to reach me **limweifengleo@gmail.com**
 
 ## 🚀 Languages and Tools:
