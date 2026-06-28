@@ -6,7 +6,7 @@
 
 ## 🙋‍♂️ About Me
 
-- 🔭 I’m currently working on **Strava Activities Analyzer**
+- 🔭 I’m currently working on **Orderease Singapore**
 
 - 🌱 I’m currently learning **Machine Learning**
 
