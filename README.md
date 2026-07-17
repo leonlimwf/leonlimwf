@@ -1,165 +1,68 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:0369A1,100:22D3EE&height=230&section=header&text=Leo%20Lim&fontSize=64&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Engineer%20%E2%80%A2%20SaaS%20Builder%20%E2%80%A2%20Applied%20ML&descAlignY=56&descSize=18" alt="Leo Lim animated header" />
+<img width="100%" src="./assets/leo-terminal.svg" alt="Animated terminal introducing Leo Lim, OrderEase, and his engineering focus" />
 
-<a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=850&height=60&lines=Building+OrderEase+for+Singapore+home+businesses;Shipping+full-stack+products+from+idea+to+production;Turning+data+and+machine+learning+into+useful+software;Computer+Science+%40+NTU+%7C+Based+in+Singapore" alt="Typing introduction" />
-</a>
-
-<br />
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-leonlimwf.com-0F172A?style=for-the-badge&logo=googlechrome&logoColor=38BDF8)](https://leonlimwf.com)
-[![OrderEase](https://img.shields.io/badge/OrderEase-Live_Product-0369A1?style=for-the-badge&logo=rocket&logoColor=white)](https://orderease.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-leonlimwf-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonlimwf/)
-[![Email](https://img.shields.io/badge/Email-limweifengleo%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:limweifengleo@gmail.com)
+<p>
+  <a href="https://leonlimwf.com"><strong>Portfolio</strong></a> ·
+  <a href="https://www.linkedin.com/in/leonlimwf"><strong>LinkedIn</strong></a> ·
+  <a href="mailto:leonlimwf@gmail.com"><strong>Email</strong></a>
+</p>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## Featured projects
 
-I'm a **Computer Science undergraduate at Nanyang Technological University** and a **Diploma with Merit in Big Data & Analytics** graduate from Temasek Polytechnic.
+### [OrderEase](https://orderease.app/) — commerce infrastructure for Singapore's home businesses
 
-I build practical products across the full stack — from frontend experiences and backend APIs to machine-learning systems, deployment, and production operations.
+A live SaaS platform serving **40+ Singapore micro-merchants** with branded storefronts, bookings, order management, and PayNow checkout. Built end to end with server-authoritative pricing, idempotency safeguards, field-level PII encryption, atomic transactions, and Stripe subscriptions.
 
-- 🚀 Building **[OrderEase](https://orderease.app)**, a commerce and order-management platform for Singapore home businesses
-- 🧩 Interested in full-stack engineering, scalable systems, developer tooling, applied AI, and product development
-- 🛠️ Comfortable working across product design, frontend, backend, data, infrastructure, and deployment
-- 🎯 Open to **Summer 2027 software engineering and applied AI internships**
-- 📍 Based in Singapore
+**React · TypeScript · tRPC · Hono · SQL · SSE · Stripe**<br />
+[Live product](https://orderease.app/) · [Engineering case study](https://leonlimwf.com/blog/5)
 
-> More about my experience and projects: **[leonlimwf.com](https://leonlimwf.com)**
+### RideSense — explainable pricing intelligence for Singapore's used-car market
 
-## 🚀 Featured Work
+A data and ML system that collects and normalises **14,000+ vehicle listings**. Its depreciation model uses validation tracking and confidence bands so estimates communicate uncertainty instead of presenting one opaque number.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Python · FastAPI · MongoDB · Next.js · Recharts**<br />
 
-### [OrderEase](https://orderease.app)
+### [Apple Refurbished Tracker](https://github.com/leonlimwf/apple_scraper) — inventory and price-history monitoring
 
-**Commerce & order management for Singapore home businesses**
+A public full-stack project that tracks Apple's refurbished inventory in Singapore. It runs automated daily collection, records price history in SQLite, and provides filtering and watchlists through a React interface.
 
-A production SaaS platform that helps sellers manage storefronts, products, inventory, orders, bookings, customers, fulfilment, promotions, payments, and loyalty rewards.
+**TypeScript · React · Hono · SQLite · Tailwind CSS · Docker**<br />
+[View source](https://github.com/leonlimwf/apple_scraper)
 
-**What I worked on**
+## Stack
 
-- Product architecture and end-to-end user flows
-- Type-safe frontend and backend development
-- Real-time order updates and operational workflows
-- Production deployment, CI/CD, monitoring, and reliability
+| Area | Tools |
+| --- | --- |
+| Product engineering | TypeScript, React, Next.js, Vite, Tailwind CSS |
+| Backend and APIs | Node.js, Hono, tRPC, FastAPI, Express, REST APIs |
+| Data and ML | Python, SQL, PostgreSQL, MongoDB, Prisma, ML pipelines |
+| Systems | Docker, Linux/Bash, Git CI/CD, self-hosting, MQTT and IoT protocols |
 
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white" alt="Hono" />
-  <img src="https://img.shields.io/badge/tRPC-2596BE?style=flat-square&logo=trpc&logoColor=white" alt="tRPC" />
-  <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white" alt="DigitalOcean" />
-</p>
+## Engineering notes
 
-[![Visit OrderEase](https://img.shields.io/badge/Visit_OrderEase-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://orderease.app)
+[**Building OrderEase: What I Learned Serving Singapore's Micro-Merchants**](https://leonlimwf.com/blog/5)<br />
+The tradeoffs behind using SQLite, tRPC, PayNow, and Stripe for a focused commerce product.
 
-</td>
-<td width="50%" valign="top">
+[Read all notes →](https://leonlimwf.com/blog)
 
-### Used-Car Price Intelligence
-
-**Machine-learning decision support for Singapore car buyers**
-
-An end-to-end application that analyses used-car listings, estimates fair market value, surfaces comparable vehicles, and explains the result in understandable terms.
-
-**Highlights**
-
-- Trained models on approximately **18,000 listings**
-- Engineered vehicle age, mileage, ownership, engine, brand, and market features
-- Combined scraping, prediction, retrieval, recommendations, and AI-generated explanations
-- Deployed a full-stack interface around the modelling workflow
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-</p>
-
-[![View Portfolio](https://img.shields.io/badge/View_Case_Study-334155?style=for-the-badge&logo=readme&logoColor=white)](https://leonlimwf.com)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Edge AI & Computer Vision
-
-Previously developed software and AI integrations involving **face recognition, fall detection, edge devices, and live video streams**.
-
-- Built MERN-based portals
-- Integrated computer-vision services into application workflows
-- Worked with NVIDIA Jetson, DeepStream, GStreamer, RTSP, and Docker
-- Supported deployments spanning application and edge environments
-
-</td>
-<td width="50%" valign="top">
-
-### What I'm Exploring
-
-- Scalable multi-tenant application architecture
-- Reliable real-time notification systems
-- AI-assisted testing and developer workflows
-- Product analytics and onboarding optimisation
-- Infrastructure, containers, and production operations
-
-</td>
-</tr>
-</table>
-
-## 🧰 Tech Stack
-
-<div align="center">
-
-### Product Engineering
-
-[![Product Engineering Skills](https://skillicons.dev/icons?i=ts,js,react,vite,nextjs,nodejs,tailwind,html,css&theme=dark&perline=9)](https://skillicons.dev)
-
-### Backend, Data & Infrastructure
-
-[![Backend and Infrastructure Skills](https://skillicons.dev/icons?i=python,fastapi,mongodb,mysql,docker,nginx,git,github,postman,linux&theme=dark&perline=10)](https://skillicons.dev)
-
-</div>
-
-## 🏆 Highlights
-
-- **Top 10**, PSA CodeSprint 2021
-- Temasek Polytechnic **Scholarship** recipient
-- Temasek Polytechnic **Director's List**
-- Student mentor for computational thinking, cybersecurity, and machine-learning subjects
-- Experience building and deploying full-stack, data, and AI-powered applications
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-<a href="https://github.com/leonlimwf">
-  <img height="170" src="https://github-stats-extended.vercel.app/api?username=leonlimwf&show_icons=true&hide_border=true&theme=transparent&title_color=38BDF8&text_color=94A3B8&icon_color=22D3EE&rank_icon=github" alt="Leo's GitHub statistics" />
-</a>
-<a href="https://github.com/leonlimwf">
-  <img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=leonlimwf&layout=compact&hide_border=true&theme=transparent&title_color=38BDF8&text_color=94A3B8&langs_count=8" alt="Leo's most used languages" />
-</a>
-
-</div>
-
-## 🌱 Contribution Skyline
+## GitHub activity
 
 <div align="center">
 
 <!-- Generated automatically by .github/workflows/profile-3d.yml -->
-<img width="100%" src="./profile-3d-contrib/profile-green-animate.svg" alt="Animated 3D GitHub contribution calendar" />
+<img width="100%" src="./profile-3d-contrib/profile-green-animate.svg" alt="Leo Lim's animated 3D GitHub contribution calendar" />
 
 </div>
 
-## 🐍 Contribution Trail
+<details>
+<summary><strong>View contribution snake</strong></summary>
+
+<br />
 
 <div align="center">
 
@@ -167,29 +70,15 @@ Previously developed software and AI integrations involving **face recognition, 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonlimwf/leonlimwf/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leonlimwf/leonlimwf/output/github-contribution-grid-snake.svg" />
-  <img width="100%" alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/leonlimwf/leonlimwf/output/github-contribution-grid-snake.svg" />
+  <img width="100%" alt="Animated snake moving through Leo Lim's GitHub contribution grid" src="https://raw.githubusercontent.com/leonlimwf/leonlimwf/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
 
-## 🤝 Connect With Me
+</details>
 
 <div align="center">
 
-I'm always interested in conversations about software products, engineering, data, applied machine learning, and startup ideas.
-
-<br />
-
-[![Website](https://img.shields.io/badge/Website-leonlimwf.com-0F172A?style=flat-square&logo=googlechrome&logoColor=38BDF8)](https://leonlimwf.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Leo_Lim-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonlimwf/)
-[![Instagram](https://img.shields.io/badge/Instagram-leonlimwf-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/leonlimwf/)
-[![Email](https://img.shields.io/badge/Email-limweifengleo%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:limweifengleo@gmail.com)
-
-<br />
-
-![Profile Views](https://komarev.com/ghpvc/?username=leonlimwf&style=flat-square&label=Profile+Views)
-[![GitHub Followers](https://img.shields.io/github/followers/leonlimwf?style=flat-square&label=Followers)](https://github.com/leonlimwf?tab=followers)
+[View all projects](https://leonlimwf.com/#projects) · [Browse my repositories](https://github.com/leonlimwf?tab=repositories) · [Get in touch](mailto:leonlimwf@gmail.com)
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,55:0369A1,100:0F172A&height=120&section=footer" alt="Animated footer" />

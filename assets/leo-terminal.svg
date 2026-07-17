@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
+  <title id="title">Leo Lim — animated developer terminal</title>
+  <desc id="desc">An animated terminal introducing Leo Lim, OrderEase, and his engineering focus.</desc>
+
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f" />
+      <stop offset="0.55" stop-color="#0b1728" />
+      <stop offset="1" stop-color="#07101c" />
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0.3" />
+    </linearGradient>
+    <linearGradient id="status" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0ea5e9" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#38bdf8" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <clipPath id="command-one">
+      <rect x="73" y="76" width="92" height="25">
+        <animate attributeName="width" values="0;0;92;92;92;0" keyTimes="0;0.04;0.14;0.92;0.97;1" dur="10s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="answer-one">
+      <rect x="73" y="101" width="500" height="27">
+        <animate attributeName="width" values="0;0;500;500;0" keyTimes="0;0.14;0.32;0.92;1" dur="10s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="command-two">
+      <rect x="73" y="133" width="184" height="25">
+        <animate attributeName="width" values="0;0;184;184;0" keyTimes="0;0.33;0.46;0.92;1" dur="10s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="answer-two">
+      <rect x="73" y="158" width="800" height="27">
+        <animate attributeName="width" values="0;0;800;800;0" keyTimes="0;0.46;0.72;0.92;1" dur="10s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="command-three">
+      <rect x="73" y="190" width="75" height="25">
+        <animate attributeName="width" values="0;0;75;75;0" keyTimes="0;0.72;0.79;0.92;1" dur="10s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="answer-three">
+      <rect x="73" y="215" width="700" height="25">
+        <animate attributeName="width" values="0;0;700;700;0" keyTimes="0;0.79;0.91;0.96;1" dur="10s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <style>
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .meta { fill: #7dd3fc; font-size: 11px; font-weight: 700; letter-spacing: 1.8px; }
+      .muted { fill: #64748b; font-size: 11px; }
+      .prompt { fill: #22d3ee; font-size: 17px; font-weight: 700; }
+      .command { fill: #e2e8f0; font-size: 17px; }
+      .answer { fill: #94a3b8; font-size: 17px; }
+      .answer-strong { fill: #f8fafc; font-weight: 700; }
+      .cursor { fill: #22d3ee; animation: blink 0.9s steps(1, end) infinite; }
+      @keyframes blink { 0%, 45% { opacity: 1; } 46%, 100% { opacity: 0; } }
+      @media (prefers-color-scheme: light) {
+        .command { fill: #e2e8f0; }
+        .answer { fill: #a8b5c7; }
+        .answer-strong { fill: #ffffff; }
+      }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="958" height="278" rx="22" fill="url(#panel)" stroke="url(#border)" stroke-width="2" />
+  <rect x="2" y="2" width="956" height="276" rx="21" fill="url(#grid)" />
+  <path d="M22 55.5H938" stroke="#334155" stroke-opacity="0.72" />
+
+  <circle cx="28" cy="28" r="5" fill="#fb7185" />
+  <circle cx="46" cy="28" r="5" fill="#fbbf24" />
+  <circle cx="64" cy="28" r="5" fill="#34d399" />
+
+  <rect x="86" y="18" width="31" height="20" rx="6" fill="#0ea5e9" fill-opacity="0.15" stroke="#38bdf8" stroke-opacity="0.35" />
+  <text x="101.5" y="32" text-anchor="middle" class="mono meta" font-size="10">LL</text>
+  <text x="128" y="32" class="mono meta">LEO LIM / GITHUB</text>
+  <text x="925" y="32" text-anchor="end" class="mono muted">SINGAPORE · UTC+8</text>
+
+  <text x="48" y="94" class="mono prompt">❯</text>
+  <g clip-path="url(#command-one)">
+    <text x="73" y="94" class="mono command">whoami</text>
+  </g>
+  <g clip-path="url(#answer-one)">
+    <text x="73" y="120" class="mono answer">Full-stack builder shipping useful software.</text>
+  </g>
+
+  <text x="48" y="151" class="mono prompt">❯</text>
+  <g clip-path="url(#command-two)">
+    <text x="73" y="151" class="mono command">currently_building</text>
+  </g>
+  <g clip-path="url(#answer-two)">
+    <text x="73" y="177" class="mono answer">
+      <tspan class="answer-strong">OrderEase</tspan>
+      <tspan> — commerce infrastructure for 40+ Singapore micro-merchants.</tspan>
+    </text>
+  </g>
+
+  <text x="48" y="208" class="mono prompt">❯</text>
+  <g clip-path="url(#command-three)">
+    <text x="73" y="208" class="mono command">focus</text>
+  </g>
+  <g clip-path="url(#answer-three)">
+    <text x="73" y="234" class="mono answer">TypeScript · backend systems · data workflows · applied ML</text>
+  </g>
+
+  <rect x="32" y="252" width="896" height="1" fill="#334155" fill-opacity="0.55" />
+  <circle cx="48" cy="265" r="4" fill="#22d3ee" filter="url(#glow)" />
+  <text x="61" y="269" class="mono muted">BUILD MODE · ONLINE</text>
+  <rect x="885" y="260" width="9" height="13" rx="1" class="cursor" />
+  <rect x="901" y="263" width="27" height="7" rx="3.5" fill="url(#status)" opacity="0.85" />
+</svg>
