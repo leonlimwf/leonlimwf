@@ -1,0 +1,18 @@
+# Local environment files can contain API keys and tokens.
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates.
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local credential/config files.
+credentials.json
+secrets.json
+.npmrc
+
+# macOS metadata.
+.DS_Store
