@@ -14,14 +14,20 @@
 
 ## Featured projects
 
-### [OrderEase](https://orderease.app/) — commerce infrastructure for Singapore's home businesses
+<h3>
+  <img src="https://orderease.app/logo-tight.png" width="34" alt="" />
+  <a href="https://orderease.app/">OrderEase</a> — commerce infrastructure for Singapore's home businesses
+</h3>
 
 A live SaaS platform serving **40+ Singapore micro-merchants** with branded storefronts, bookings, order management, and PayNow checkout. Built end to end with server-authoritative pricing, idempotency safeguards, field-level PII encryption, atomic transactions, and Stripe subscriptions.
 
 **React · TypeScript · tRPC · Hono · SQL · SSE · Stripe**<br />
 [Live product](https://orderease.app/) · [Engineering case study](https://leonlimwf.com/blog/5)
 
-### RideSense — explainable pricing intelligence for Singapore's used-car market
+<h3>
+  <img src="https://leonlimwf.com/ridesense_logo.png" height="28" alt="" />
+   — explainable pricing intelligence for Singapore's used-car market
+</h3>
 
 A data and ML system that collects and normalises **14,000+ vehicle listings**. Its depreciation model uses validation tracking and confidence bands so estimates communicate uncertainty instead of presenting one opaque number.
 
